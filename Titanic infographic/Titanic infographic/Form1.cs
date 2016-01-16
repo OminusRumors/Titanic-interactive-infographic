@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Text;
 
 namespace Titanic_infographic
 {
@@ -18,6 +19,9 @@ namespace Titanic_infographic
             InitializeComponent();
             temp = ptc_gym_lib;
             lbl_desc.Text = "";
+            PrivateFontCollection pfc = new PrivateFontCollection();
+            pfc.AddFontFile("..\\..\\TrajanPro-Regular.ttf");
+            label1.Font = new Font(pfc.Families[0], 10, FontStyle.Bold);
         }
 
         private void DrawLinePoint(PaintEventArgs e, float x, float y, float width, float height)
@@ -192,6 +196,24 @@ namespace Titanic_infographic
         {
             Ship_data sd = new Ship_data();
             sd.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Opacity = 0.1;
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (this.Opacity <= 1.0)
+            {
+                this.Opacity += 0.025;
+            }
+            else
+            {
+                timer1.Stop();
+            }
         }
     }
 }

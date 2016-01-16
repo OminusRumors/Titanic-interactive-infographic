@@ -8,3 +8,4 @@ C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic
 C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic infographic.exe
 C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic infographic.pdb
 C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic_infographic.Ship_data.resources
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic_infographic.Intro.resources

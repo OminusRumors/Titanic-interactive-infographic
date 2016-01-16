@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pct_bow = new System.Windows.Forms.PictureBox();
             this.lbl_desc = new System.Windows.Forms.Label();
@@ -49,6 +50,7 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pct_img = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pct_bow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_boiler)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_2)).BeginInit();
@@ -265,15 +267,21 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(468, 506);
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Silver;
+            this.label1.Location = new System.Drawing.Point(464, 506);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 16);
+            this.label1.Size = new System.Drawing.Size(93, 16);
             this.label1.TabIndex = 19;
             this.label1.Text = "Exit";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 50;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -303,9 +311,11 @@
             this.Controls.Add(this.pct_boiler);
             this.Controls.Add(this.lbl_desc);
             this.Controls.Add(this.pct_bow);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Titanic intersection";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pct_bow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_boiler)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct_2)).EndInit();
@@ -351,6 +361,7 @@
         private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.PictureBox pct_img;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer1;
 
     }
 }
