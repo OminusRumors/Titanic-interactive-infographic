@@ -1,0 +1,10 @@
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\bin\Debug\Titanic infographic.exe.config
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\bin\Debug\Titanic infographic.exe
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\bin\Debug\Titanic infographic.pdb
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic infographic.csprojResolveAssemblyReference.cache
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic_infographic.Form1.resources
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic_infographic.Properties.Resources.resources
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic infographic.csproj.GenerateResource.Cache
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic infographic.exe
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic infographic.pdb
+C:\Users\George II\OneDrive\Fontys\BLOCK 9\DAVI\Assignment 3\Titanic infographic\Titanic infographic\obj\Debug\Titanic_infographic.Ship_data.resources
