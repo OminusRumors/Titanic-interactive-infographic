@@ -8,20 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Text;
+using System.Media;
 
 namespace Titanic_infographic
 {
     public partial class Form1 : Form
     {
         private PictureBox temp;
+        private SoundPlayer horn = new SoundPlayer(@"..\..\sounds\horn.wav");
         public Form1()
         {
             InitializeComponent();
             temp = ptc_gym_lib;
             lbl_desc.Text = "";
             PrivateFontCollection pfc = new PrivateFontCollection();
-            pfc.AddFontFile("..\\..\\TrajanPro-Regular.ttf");
+            pfc.AddFontFile(@"..\..\TrajanPro-Regular.ttf");
             label1.Font = new Font(pfc.Families[0], 10, FontStyle.Bold);
+            horn.Play();
         }
 
         private void DrawLinePoint(PaintEventArgs e, float x, float y, float width, float height)
@@ -208,11 +211,12 @@ namespace Titanic_infographic
         {
             if (this.Opacity <= 1.0)
             {
-                this.Opacity += 0.025;
+                this.Opacity += 0.008;
             }
             else
             {
                 timer1.Stop();
+                horn.Stop();
             }
         }
     }

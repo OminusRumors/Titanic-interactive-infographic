@@ -95,6 +95,29 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\1366x768- titanic wallpaper.jpg" />
+    <Content Include="images\2ndcabin.jpg" />
+    <Content Include="images\Boiler-Room.jpg" />
+    <Content Include="images\bridge.jpg" />
+    <Content Include="images\crew quarters.jpg" />
+    <Content Include="images\dining room.jpg" />
+    <Content Include="images\engine room.jpg" />
+    <Content Include="images\first class cabin.jpg" />
+    <Content Include="images\First+Class+Smoking+Room+Titanic.jpg" />
+    <Content Include="images\generator.jpg" />
+    <Content Include="images\gym.jpg" />
+    <Content Include="images\lounge.jpg" />
+    <Content Include="images\Storage.jpg" />
+    <Content Include="images\Third Class Cabin.jpg" />
+    <Content Include="images\Titanic high res.jpg" />
+    <Content Include="images\titanic intersection.jpg" />
+    <Content Include="images\titanic sinking.gif" />
+    <Content Include="images\Titanic+Wreckage+Location.jpg" />
+    <Content Include="images\titanic-animation.gif" />
+    <Content Include="images\turbine.jpg" />
+    <Content Include="sounds\horn.mp3" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
